@@ -1,0 +1,948 @@
+body {
+  background-color: #1A1A1A;
+  width: 100%;
+}
+
+.hero_section {
+  width: 100%;
+  height: 1250px;
+  margin-top: -100px;
+  background-image: url('assets/hero_image.png');
+  background-size: cover;
+}
+
+.hero_text {
+  position: absolute;
+  top: 150px;
+  left: 100px;
+  color: #f1f1f1;
+  font-size: 64px;
+  font-family: 'Raleway';
+  font-weight: 400;
+}
+
+.hero_text_logo {
+  position: absolute;
+  top: 260px;
+  left: 100px;
+  height: 430px;
+  color: #f1f1f1;
+  font-size: 64px;
+  font-family: 'Raleway';
+  font-weight: 400;
+}
+
+.hero_button1 {
+  position: absolute;
+  top: 700px;
+  left: 560px;
+  width: 235px;
+  height: 80px;
+  background-color: #f1f1f1;
+  color: #1A1A1A;
+  font-size: 32px;
+  font-family: 'Raleway';
+  font-weight: 800;
+  border-radius: 50px;
+  border: none;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.hero_button1:hover {
+  background-color: #48BF91;
+  color: #f1f1f1;
+}
+
+.hero_button2 {
+  position: absolute;
+  top: 700px;
+  left: 310px;
+  width: 235px;
+  height: 80px;
+  background-color: #f1f1f1;
+  color: #1A1A1A;
+  font-size: 32px;
+  font-family: 'Raleway';
+  font-weight: 800;
+  border-radius: 50px;
+  border: none;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.hero_button2:hover {
+  background-color: #48BF91;
+  color: #f1f1f1;
+}
+
+.explore1 {
+  position: absolute;
+  top: 900px;
+  left: 100px;
+  color: #f1f1f1;
+  font-size: 64px;
+  font-family: 'Merriweather';
+  font-weight: bold;
+}
+
+.explore2 {
+  position: absolute;
+  height: 250px;
+  top: 850px;
+  left: 1060px;
+}
+
+.explore3 {
+  position: absolute;
+  top: 900px;
+  left: 1500px;
+  color: #f1f1f1;
+  font-size: 64px;
+  font-family: 'Merriweather';
+  font-weight: bold;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+
+.card {
+  width: 1616px;
+  height: 667px;
+  background: linear-gradient(180deg, rgba(72, 191, 145, 0.40) 0%, rgba(77, 180, 215, 0.40) 100%);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.50);
+  border-radius: 50px;
+}
+
+.container_card {
+  width: 1616px;
+  height: 600px;
+  margin-top: -10px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+
+
+.title {
+  width: 1600px;
+  height: 48px;
+  color: #f1f1f1;
+  font-size: 48px;
+  font-family: 'Merriweather';
+  font-weight: 700;
+  margin-top: 30px;
+  margin-left: 50px;
+}
+
+.holder {
+  width: 354px;
+  height: 480px;
+}
+
+.image {
+  width: 354px;
+  height: 470px;
+  padding-bottom: 10px;
+  object-fit: cover;
+  object-position: center top;
+}
+
+.overlay {
+  width: 354px;
+  height: 182px;
+  background: #48bf91;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 50px;
+  margin-top: -186px;
+  z-index: 1;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  width: 227px;
+  height: 146px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column-reverse
+}
+
+.btn-view-more {
+  width: 221px;
+  height: 50px;
+  background: #1a1a1a;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.50);
+  border-radius: 50px;
+  text-align: center;
+
+  color: #f1f1f1;
+  font-size: 32px;
+  font-family: 'Raleway';
+  font-weight: 700;
+}
+
+.character-title {
+  width: 354px;
+  height: 48px;
+  text-align: center;
+  color: #f1f1f1;
+  font-size: 24px;
+  font-family: 'Merriweather';
+  font-weight: 700;
+  line-height: 23.04px;
+  word-wrap: break-word;
+  padding-top: 15px;
+}
+
+.character-name {
+  width: 354px;
+  height: 48px;
+  text-align: center;
+  color: #f1f1f1;
+  font-size: 47px;
+  font-family: 'Merriweather';
+  font-weight: 700;
+}
+
+.filler {
+  width: 100%;
+}
+
+.product_button {
+  width: 270px;
+  height: 80px;
+  background-color: #f1f1f1;
+  color: #1A1A1A;
+  font-size: 32px;
+  font-family: 'Raleway';
+  font-weight: 800;
+  border-radius: 50px;
+  border: none;
+  transition: background-color 0.3s, color 0.3s;
+  margin-left: 50px;
+  margin-top: 40px;
+}
+
+.product_button:hover {
+  background-color: #48BF91;
+  color: #f1f1f1;
+}
+
+.product_arrow {
+  margin-left: 10px;
+}
+
+.product_button:hover .product_arrow {
+  filter: invert(100)
+}
+
+.container_p {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+
+
+.card_p {
+  width: 1616px;
+  height: min-content;
+  background: linear-gradient(180deg, rgba(72, 191, 145, 0.40) 0%, rgba(77, 180, 215, 0.40) 100%);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.50);
+  border-radius: 50px;
+  margin-top: 50px;
+}
+
+.container_card_p {
+  width: 1616px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 40px;
+}
+
+.holder_p {
+  width: 354px;
+  height: 480px;
+  padding-bottom: 50px;
+}
+
+.dropdown-container {
+  position: relative;
+}
+
+.dropdown_content_region {
+  width: 270px;
+  height: 320px;
+  background: linear-gradient(180deg, rgba(72, 191, 145, 0.40) 0%, rgba(77, 180, 215, 0.40) 100%);
+  border-radius: 50px;
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  top: 248px;
+  left: 193px;
+  padding-top: 5px;
+}
+
+.dropdown_content_rarity {
+  width: 260px;
+  height: 190px;
+  background: linear-gradient(180deg, rgba(72, 191, 145, 0.40) 0%, rgba(77, 180, 215, 0.40) 100%);
+  border-radius: 50px;
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+  position: absolute;
+  top: 248px;
+  left: 520px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 5px;
+}
+
+.dropdown_text_p {
+  font-size: 32px;
+  font-family: 'Raleway';
+  font-weight: 400;
+  padding-top: 10px;
+  color: #f1f1f1;
+}
+
+.dropdown_text_p:hover {
+  font-weight: 800;
+}
+
+.content_i {
+  width: 100%;
+  height: min-content;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.title_i {
+  width: 700px;
+  height: 48px;
+  color: #f1f1f1;
+  font-size: 48px;
+  font-family: 'Merriweather';
+  font-weight: 700;
+  margin-top: 30px;
+  margin-left: 50px;
+  margin-bottom: 40px;
+}
+
+.image_card_i {
+  height: 840px;
+  width: 740px;
+  object-fit: cover;
+  object-position: 0 -150px;
+  border-radius: 50px;
+
+}
+
+.information_i {
+  height: 800px;
+  width: 700px;
+  background: #48bf91;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 50px;
+  padding: 20px;
+}
+
+.character_name_i {
+  font-size: 72px;
+  font-family: 'Merriweather';
+  font-weight: 700;
+  color: #f1f1f1;
+}
+
+.character_title_i {
+  font-size: 40px;
+  font-family: 'Merriweather';
+  font-weight: 700;
+  color: #f1f1f1;
+  padding-top: 5px;
+}
+
+.character_description_i {
+  font-size: 38px;
+  font-family: 'Raleway';
+  font-weight: 400;
+  color: #f1f1f1;
+  padding-top: 5px;
+}
+
+.character_price_i {
+  font-size: 80px;
+  font-family: 'Merriweather';
+  font-weight: 700;
+  color: #f1f1f1;
+  position: absolute;
+  top: 890px;
+}
+
+.bottom_i {
+  height: 250px;
+  width: 1450px;
+  background: #48bf91;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 50px;
+  margin-left: 40px;
+  margin-top: 40px;
+  padding-left: 70px;
+}
+
+.image_dish_i {
+  height: 250px;
+  float: left;
+  margin-right: 120px;
+}
+
+.title_dish_i {
+  font-size: 72px;
+  font-family: 'Merriweather';
+  font-weight: 700;
+  color: #f1f1f1;
+  padding-top: 40px;
+  float: left;
+  margin-right: 400px;
+}
+
+.name_dish_i {
+  font-size: 40px;
+  font-family: 'Merriweather';
+  font-weight: 700;
+  color: #f1f1f1;
+  padding-top: 20px;
+  float: left;
+}
+
+.element_button {
+  width: 270px;
+  height: 80px;
+  position: absolute;
+  top: 190px;
+  right: 220px;
+  background-color: #f1f1f1;
+  color: #1A1A1A;
+  font-size: 32px;
+  font-family: 'Raleway';
+  font-weight: 800;
+  border-radius: 50px;
+  border: none;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.dropdown_content_element {
+  width: 270px;
+  height: 480px;
+  background: linear-gradient(180deg, rgba(72, 191, 145) 0%, rgba(77, 180, 215) 100%);
+  border-radius: 50px;
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  top: 270px;
+  right: 220px;
+  padding-top: 5px;
+}
+
+.add_to_cart_button {
+  width: 270px;
+  height: 80px;
+  position: absolute;
+  top: 905px;
+  right: 220px;
+  background-color: #f1f1f1;
+  color: #1A1A1A;
+  font-size: 32px;
+  font-family: 'Raleway';
+  font-weight: 800;
+  border-radius: 50px;
+  border: none;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.card_i {
+  width: 1616px;
+  height: min-content;
+  background: linear-gradient(180deg, rgba(72, 191, 145, 0.40) 0%, rgba(77, 180, 215, 0.40) 100%);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.50);
+  border-radius: 50px;
+  margin-top: 50px;
+  padding-bottom: 100px;
+}
+
+
+.quantity-control {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+  font-family: 'Raleway';
+  font-size: 24px;
+  color: #1A1A1A;
+}
+
+.quantity_button_plus {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #f1f1f1;
+  color: #1A1A1A;
+  font-size: 20px;
+  font-weight: 800;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  position: absolute;
+  right: 500px;
+  top: 908px;
+}
+
+.quantity_button_minus {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #f1f1f1;
+  color: #1A1A1A;
+  font-size: 20px;
+  font-weight: 800;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  position: absolute;
+  right: 500px;
+  top: 950px;
+}
+
+.quantity-input {
+  width: 120px;
+  height: 75px;
+  text-align: center;
+  font-size: 32px;
+  font-family: 'Raleway';
+  font-weight: 800;
+  border: none;
+  border-radius: 50px;
+  margin: 0 10px;
+  background-color: #f1f1f1;
+  position: absolute;
+  top: 905px;
+  right: 530px;
+}
+
+.element_button_img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: #f1f1f1;
+  color: #1A1A1A;
+  font-size: 20px;
+  font-weight: 800;
+  border: none;
+  transition: background-color 0.3s, color 0.3s;
+  position: absolute;
+  left: 840px;
+  top: 185px;
+}
+
+
+.cart_items {
+  height: min-content;
+  width: 840px;
+  object-fit: cover;
+  object-position: 0 -150px;
+  border-radius: 50px;
+}
+
+.payment_info {
+  height: 800px;
+  width: 600px;
+  background: #48bf91;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 50px;
+  padding: 30px;
+}
+
+.cart_individual_item {
+  height: 200px;
+  width: 100%;
+}
+
+.cart_icon {
+  height: 200px;
+  float: left;
+  margin-right: 10px;
+}
+
+.cart_name {
+  font-size: 56px;
+  font-family: 'Merriweather';
+  font-weight: 700;
+  color: #f1f1f1;
+  padding-top: 40px;
+  margin-bottom: -25px;
+}
+
+.cart_element {
+  font-size: 48px;
+  font-family: 'Raleway';
+  font-weight: 400;
+  color: #f1f1f1;
+}
+
+.cart_amount {
+  width: 120px;
+  height: 60px;
+  float: right;
+  margin-top: -120px;
+  background-color: #f1f1f1;
+  color: #1A1A1A;
+  font-size: 32px;
+  font-family: 'Raleway';
+  font-weight: 800;
+  border-radius: 50px;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.clear_cart_button {
+  float: right;
+  margin-top: -55px;
+  font-size: 20px;
+  font-family: 'Raleway';
+  font-weight: 400;
+  background-color: transparent;
+  border: none;
+  color: #f1f1f1;
+}
+
+.clear_cart_button:hover {
+  font-weight: 800;
+}
+
+.cart_price {
+  float: right;
+  margin-top: -180px;
+  font-size: 48px;
+  font-family: 'Raleway';
+  font-weight: 800;
+  background-color: transparent;
+  border: none;
+  color: #f1f1f1;
+}
+
+.cart_subtotal {
+  width: 450px;
+  font-size: 50px;
+  font-family: 'Merriweather';
+  font-weight: 700;
+  color: #f1f1f1;
+  float: left;
+  margin-bottom: -20px;
+}
+
+.cart_subtotal_amount {
+  font-size: 50px;
+  font-family: 'Merriweather';
+  font-weight: 700;
+  color: #f1f1f1;
+  float: right;
+  margin-bottom: -20px;
+}
+
+.cart_devider {
+  margin-top: 40px;
+  margin-left: 35px;
+  margin-bottom: -20px;
+}
+
+
+
+.customer {
+  width: 700px;
+  font-size: 50px;
+  font-family: 'Raleway';
+  font-weight: 700;
+  color: #f1f1f1;
+  float: left;
+  margin-bottom: -20px;
+}
+
+.label_name {
+  font-size: 32px;
+  font-family: 'Raleway';
+  font-weight: 700;
+  color: #f1f1f1;
+  float: left;
+  margin-top: 20px;
+}
+
+.input_name {
+  width: 280px;
+  height: 50px;
+  font-size: 32px;
+  font-family: 'Raleway';
+  font-weight: 800;
+  border: none;
+  border-radius: 50px;
+  margin-top: 5px;
+  background-color: #f1f1f1;
+}
+
+.customer_input {
+  float: left;
+  width: 300px;
+}
+
+.customer_card_input {
+  float: left;
+  width: 580px;
+}
+
+.input_card {
+  width: 580px;
+  height: 50px;
+  font-size: 32px;
+  font-family: 'Raleway';
+  font-weight: 800;
+  border: none;
+  border-radius: 50px;
+  margin-top: 5px;
+  background-color: #f1f1f1;
+}
+
+.purchase_button {
+  width: 580px;
+  height: 80px;
+  background-color: #f1f1f1;
+  color: #1A1A1A;
+  font-size: 32px;
+  font-family: 'Merriweather';
+  font-weight: 400;
+  border-radius: 50px;
+  border: none;
+  transition: background-color 0.3s, color 0.3s;
+  margin-top: 40px;
+}
+
+.purchase_button:hover {
+  font-weight: 800;
+}
+
+.login_image {
+  position: absolute;
+  top: 30px;
+  left: 100px;
+  width: auto;
+  float: left;
+}
+
+.login_section {
+  width: 100%;
+  height: 100vh;
+  background-image: url('assets/hero_image.png');
+  background-size: cover;
+  overflow-x: hidden;
+}
+
+
+.login_card {
+  position: absolute;
+  top: 150px;
+  left: 100px;
+  width: 750px;
+  height: 700px;
+  background: linear-gradient(180deg, rgba(72, 191, 145, 0.40) 0%, rgba(77, 180, 215, 0.40) 100%);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.50);
+  border-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.login_text {
+  font-size: 64px;
+  font-family: 'Merriweather';
+  font-weight: 700;
+  color: #f1f1f1;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.user_label {
+  font-size: 48px;
+  font-family: 'Raleway';
+  font-weight: 800;
+  color: #f1f1f1;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+.user_input {
+  width: 90%;
+  height: 50px;
+  text-align: center;
+  font-size: 32px;
+  font-family: 'Raleway';
+  font-weight: 400;
+  border: none;
+  border-radius: 50px;
+  margin: 0 10px;
+  background-color: #f1f1f1;
+}
+
+.login_button {
+  width: 50%;
+  height: 75px;
+  text-align: center;
+  font-size: 32px;
+  font-family: 'Merriweather';
+  font-weight: 800;
+  border: none;
+  border-radius: 50px;
+  margin: 0 10px;
+  background-color: #f1f1f1;
+  margin-top: 30px;
+}
+
+.login_button:hover {
+  background-color: #48BF91;
+  color: #f1f1f1;
+}
+
+.dropdown {
+  width: 350px;
+  height: 40px;
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Raleway';
+  font-weight: 800;
+  border: none;
+  border-radius: 50px;
+  margin: 0 10px;
+  background-color: #f1f1f1;
+  margin-top: 10px;
+}
+
+.overlay_admin {
+  width: 354px;
+  height: 132px;
+  background: #1A1A1A;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+  margin-top: -136px;
+  z-index: 1;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.update_admin {
+  float: right;
+  position: absolute;
+  top: 170px;
+  left: 600px;
+}
+
+.create_admin {
+  float: right;
+  position: absolute;
+  top: 170px;
+  left: 1210px;
+}
+
+.update_a {
+  height: 550px;
+  width: 900px;
+  background: #48bf91;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 50px;
+  padding: 20px;
+}
+
+.create_a {
+  height: 550px;
+  width: 500px;
+  background: #48bf91;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 50px;
+  padding: 20px;
+}
+
+.submit_create_a {
+  width: 150px;
+  height: 50px;
+  text-align: center;
+  font-size: 16px;
+  font-family: 'Raleway';
+  font-weight: 800;
+  border: none;
+  border-radius: 50px;
+  background-color: #f1f1f1;
+  margin-top: 10px;
+}
+
+.submit_create_a:hover {
+  background-color: #1a1a1a;
+  color: #f1f1f1;
+}
+
+.orders_user_info {
+  height: 100px;
+  width: 90%;
+  background: #48bf91;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 50px;
+  padding: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.dispatch_button {
+  width: 300px;
+  height: 75px;
+  text-align: center;
+  font-size: 32px;
+  font-family: 'Merriweather';
+  font-weight: 800;
+  border: none;
+  border-radius: 50px;
+  margin: 0 10px;
+  background-color: #f1f1f1;
+}
+
+.card_o {
+  width: 1616px;
+  height: min-content;
+  background: linear-gradient(180deg, rgba(72, 191, 145, 0.40) 0%, rgba(77, 180, 215, 0.40) 100%);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.50);
+  border-radius: 50px;
+  margin-top: 50px;
+  padding-bottom: 50px;
+}
