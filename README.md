@@ -100,7 +100,7 @@ https://github.com/MareliLourens/DV_200_Term_3/assets/109971278/d014d82c-0b16-42
 
 ### Demonstration Video
 
-[https://github.com/MareliLourens/DV_200_Term_2/assets/109971278/5a093dc7-7f53-4cc0-8c79-6c5ba0c09c64](https://drive.google.com/file/d/1orKJ2URXOWsUQ6UvXMDROT50xj3INszN/view?usp=sharing)
+https://drive.google.com/file/d/1orKJ2URXOWsUQ6UvXMDROT50xj3INszN/view?usp=sharing
 
 ## Conclusion
 
