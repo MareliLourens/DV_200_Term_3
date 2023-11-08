@@ -1,11 +1,45 @@
-# Mareli Lourens Interactive Development 200 Term 3
+## <p align="center" style="text-decoration: none !important;padding:0;margin:0;">Mareli Lourens <br> 221119 <br> Interactive Development 200 - Term 3</p>
+
+<p align="center">
+  <img src="wireframes/primo_logo.png" height="75" style="display: block; margin: 0 auto;">
+</p>
+
+## <p align="center" style="text-decoration: none !important;padding:0;margin:0;">E-commerce Store</p>
+
+## Table of Contents
+
+* [About the Project](#about-the-project)
+  * [Product mockup](#product-mockup)
+  * [Project description](#project-description)
+  * [Built With](#built-with)
+* [Getting Started](#getting-started)
+  * [Prerequisites](#prerequisites)
+* [Features and Functionality](#features-and-functionality)
+* [Concept Process](#concept-process)
+   * [Ideation](#ideation)
+   * [Wireframes](#wireframes)
+* [Development Process](#development-process)
+    * [Highlights](#highlights)
+    * [Challenges](#challenges)
+* [Future Implementation](#future-implementation)
+* [Final Outcome](#final-outcome)
+    * [Mockups](#mockup-video)
+    * [Video Demonstration](#demonstration-video)
+* [Conclusion](#conclusion)
+* [Contact](#contact)
+* [Acknowledgements](#acknowledgements)
 
 ## About the project:
 
-In my current role as a fullstack developer, I embarked on a project to develop an online ecommerce store using react for the frontend and MongoDB for the backend. One particularly exciting aspect of this endeavor was the opportunity to delve into the realm of APIs by creating my very first custom API.
-Given the wealth of information available, I was aware of the potential overwhelm in comprehending it all, especially in the context of managing a store with an extensive product catalog. My primary objective was to engineer an intelligent algorithm capable of sifting through this abundance of data, unveiling hidden patterns and correlations that might elude human observation.
+### Product mockup:
+![Mockup](./wireframes/mockup.png)
+
+### Project description:
+I started a project to develop an online ecommerce store using react for the frontend and MongoDB for the backend. One particularly exciting aspect of this endeavor was the opportunity to delve into the realm of APIs by creating my very first custom API.
+Given the wealth of information available, I was aware of the potential overwhelm in comprehending it all, especially in the context of managing a store with an extensive product catalogue. My primary objective was to engineer an intelligent algorithm capable of sifting through this abundance of data, unveiling hidden patterns and correlations that might elude human observation.
 To initiate this project, I meticulously designed the APIs that would serve as the foundation of my work. Armed with these APIs, I immersed myself in the coding process, constructing a web application optimized for handling substantial data loads with efficiency. Simultaneously, I was dedicated to crafting user-friendly visual representations that not only facilitated the exploration of data but also empowered users to uncover novel insights.
-<br><br>
+
+### Built with:
 For this project, I utilized React and Node.js, as well as advanced Javascript and Axios.
 
 ## Getting Started:
@@ -15,13 +49,6 @@ For this project, I utilized React and Node.js, as well as advanced Javascript a
 * [Git](https://git-scm.com/downloads)
 * [Node.js](https://nodejs.org/en)
 * [NPM](https://www.npmjs.com/)
-
-### How to install:
-
-* React Bootstrap <br> `npm install react-bootstrap bootstrap`
-* React Chartjs 2 <br> `npm i react-chartjs-2 chart.js`
-* React Router DOM <br> `npm i react-router-dom`
-* Axios <br> `npm i axios`
 
 ## Features and Functionality:
 
@@ -35,7 +62,7 @@ On the admin side, two distinct pages cater to administrative tasks. The first p
 
 In the initial brainstorming stage of the project, I opted to draw inspiration from the game "Genshin Impact" developed by Hoyoverse. This choice influenced the overall structure of my ecommerce store. The primary concept was to establish a platform where users could make purchases of in-game characters from "Genshin Impact." To lay the groundwork, I began by designing an API that revolved around these characters, encompassing their associated details. This data served as the foundation for what users would ultimately see. While certain elements of the project naturally evolved as development progressed, the fundamental principles of modeling the store around the game's characters remained constant.
 
-### User-side Wireframes:
+### Wireframes:
 
 ![Login](./Wireframes/loginpage.png)
 ![Home](./wireframes/homepage.png)
@@ -69,9 +96,16 @@ Another area where I would like to expand and enhance the project is in making i
 
 ### Mockup Video
 
+https://github.com/MareliLourens/DV_200_Term_2/assets/109971278/c0c87e9d-11af-4751-833b-073ea2be0e49
+
+
 ### Demonstration Video
 
+https://github.com/MareliLourens/DV_200_Term_2/assets/109971278/5a093dc7-7f53-4cc0-8c79-6c5ba0c09c64
+
+
 ## Conclusion
+
 This project has been an incredible learning experience for me, and I am truly grateful for the opportunity to work on it. Throughout the course of the project, I have learned so much, from technical skills to project management and collaboration.
 
 Working on this project has allowed me to put into practice many of the concepts and techniques I have learned in my studies, and it has also challenged me to expand my knowledge and skills. From developing the initial idea to designing and implementing the project, I have gained a deeper understanding of the software development process and the importance of effective communication and teamwork.
@@ -79,3 +113,16 @@ Working on this project has allowed me to put into practice many of the concepts
 I am particularly proud of the progress I have made in developing my programming skills. I have also gained a greater appreciation for the importance of testing and debugging, and how these skills are critical to developing high-quality software.
 
 Overall, this project has been an incredibly fulfilling experience, and I am eager to continue working on it and implementing new features and improvements in the future. I believe that this project has not only helped me to develop my technical skills, but has also given me valuable experience working in a team environment and managing a project from start to finish. I am excited to take these skills and experiences with me as I move forward in my career, and I am confident that they will serve me well in whatever challenges lie ahead.
+
+
+## Authors
+Mareli Lourens - [Find me on Github](https://github.com/MareliLourens)
+
+## Contact
+Mareli Lourens - [Email](mailto:221119@virtualwindow.co.za)
+<br>
+Project Link - https://github.com/MareliLourens/DV_200_Term_3.git
+
+## Acknowledgements
+* [Genshin Impact](https://genshin.hoyoverse.com/en/) <!-- OW reference: HoYoverse, Shanghai Miha Touring Film Technology Co., Ltd. 2020. Genshin Impact. 4.1. GeForce Now, PlayStation 5, PlayStation 4, Android, Microsoft Windows, iOS.mainland China: HoYoverse, worldwide:Cognosphere Pte. Ltd. -->
+* [Genshin Impact Wiki](https://genshin-impact.fandom.com/wiki/Genshin_Impact_Wiki) <!-- OW reference: Fandom. 2023. Genshin Impact Wiki. https://genshin-impact.fandom.com/wiki/Genshin_Impact_Wiki (Accessed 8 November 2023) -->
