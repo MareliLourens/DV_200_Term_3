@@ -66,9 +66,9 @@ In the initial brainstorming stage of the project, I opted to draw inspiration f
 
 ![Login](./Wireframes/loginpage.png)
 ![Home](./wireframes/homepage.png)
-![Products](./Wireframes/productspage.png)
-![Individualproduct](./Wireframes/individualproduct.png)
-![Cart](./Wireframes/cart.png)
+![Products](./wireframes/productspage.png)
+![Individualproduct](./wireframes/individualproduct.png)
+![Cart](./wireframes/cart.png)
 
 ## Development Process
 
